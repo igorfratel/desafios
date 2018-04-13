@@ -7,8 +7,12 @@ public abstract class StringFormatter {
 
     private Integer limit;
 
-    public StringFormatter() {
-        this.limit = 40;
+    public StringFormatter(int limit) {
+        this.limit = limit;
+    }
+
+    public Integer get_limit() {
+        return limit;
     }
 
     /**
