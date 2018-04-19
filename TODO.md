@@ -1,5 +1,0 @@
-- lintar e deixar bonitinho
-- preservar parágrafos
-- Tratamento de erros e exceções. Fica a seu critério quais casos deseja tratar e como serão tratados.
-- Testes unitários ou de integração.
-- Uso do Docker

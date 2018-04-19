@@ -8,6 +8,7 @@ public abstract class StringFormatter {
     private Integer limit;
 
     public StringFormatter(int limit) {
+        if(limit <= 0) throw new IllegalArgumentException("StringFormatter: argument limit must be positive");
         this.limit = limit;
     }
 

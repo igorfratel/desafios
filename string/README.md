@@ -2,8 +2,23 @@
 ```bash
 $cd src/
 $javac -d . StringFormatter.java IdwallFormatter.java Main.java
-$java java idwall.desafio.Main 
+$java java idwall.desafio.Main
 ```
+## Testes:  
+```bash
+java idwall.desafio.string.IdwallFormatter
+```
+
+## Run with Docker:
+```bash
+sudo docker build -t idwall_strings .
+```
+
+```bash
+docker run idwall_strings
+```
+
+
 
 # Desafio 1: Strings
 
