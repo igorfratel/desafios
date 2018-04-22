@@ -1,21 +1,27 @@
 # HOW TO RUN:
+
+## From source:
 ```bash
 $cd src/
 $javac -d . StringFormatter.java IdwallFormatter.java Main.java
 $java java idwall.desafio.Main
 ```
-## Testes:  
-```bash
-java idwall.desafio.string.IdwallFormatter
-```
 
-## Run with Docker:
+## Build Docker image and run:  
 ```bash
-sudo docker build -t idwall_strings .
-```
-
-```bash
+docker build -t idwall_strings .
 docker run idwall_strings
+```
+## From DockerHub:  
+```bash
+docker pull igorfratel/idwall_strings
+docker run idwall_strings
+```
+
+## Tests:   
+```bash
+$javac -d . StringFormatter.java IdwallFormatter.java Main.java
+java idwall.desafio.string.IdwallFormatter
 ```
 
 
