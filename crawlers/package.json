@@ -1,0 +1,23 @@
+{
+  "name": "reddit_crawler",
+  "version": "1.0.0",
+  "description": "Retrieves information about popular reddit threads",
+  "main": "reddit_crawler.js",
+  "scripts": {
+    "test": "node reddit_crawler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorfratel/desafios.git"
+  },
+  "author": "Igor Fratel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorfratel/desafios/issues"
+  },
+  "homepage": "https://github.com/igorfratel/desafios#readme",
+  "dependencies": {
+    "puppeteer": "^1.3.0",
+    "readline-sync": "^1.4.9"
+  }
+}
